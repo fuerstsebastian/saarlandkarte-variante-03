@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="de" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Das Forschungsprojekt | Archäologische Denkmalpflege Saarland</title>
+  
+  <!-- Global App CSS with Tailwind Compiler -->
+  <link rel="stylesheet" href="/assets/css/styles.css" />
+</head>
+<body class="bg-[#FDFBF7] text-[#3E3A35] min-h-screen flex flex-col justify-between selection:bg-brand-200 selection:text-brand-900">
+
+  <!-- Header & Navigation -->
+  <header id="main-header" class="bg-white border-b border-slate-100 sticky top-0 z-1000 shadow-xs">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="flex items-center justify-between h-20">
+        <!-- Logo and Title -->
+        <a href="index.html" class="flex items-center gap-3 group focus:outline-hidden" aria-label="Zur Startseite">
+          <div class="w-10 h-10 rounded-full bg-[#4A5D4E] flex items-center justify-center text-white font-extrabold text-base tracking-tighter border-2 border-[#E5E0D5] shadow-xs group-hover:bg-[#3A4C3E] transition-colors">
+            AS
+          </div>
+          <div>
+            <span class="block text-lg font-bold font-display text-slate-900 leading-tight group-hover:text-[#4A5D4E] transition-colors">Archäologisches Saarland</span>
+            <span class="block text-[10px] font-mono tracking-widest text-[#8B7E66] uppercase">Universität des Saarlandes</span>
+          </div>
+        </a>
+
+        <!-- Main Nav Menu -->
+        <nav aria-label="Hauptnavigation" class="hidden md:flex items-center gap-1">
+          <a href="index.html" class="px-4 py-2 text-xs font-semibold uppercase tracking-wider text-[#5C5549] hover:text-[#4A5D4E] hover:border-b-2 hover:border-[#4A5D4E] transition-all focus:outline-hidden">Karte</a>
+          <a href="epochen.html" class="px-4 py-2 text-xs font-semibold uppercase tracking-wider text-[#5C5549] hover:text-[#4A5D4E] hover:border-b-2 hover:border-[#4A5D4E] transition-all focus:outline-hidden">Epochen</a>
+          <a href="projekt.html" class="px-4 py-2 text-xs font-semibold uppercase tracking-wider text-[#4A5D4E] border-b-2 border-[#4A5D4E] focus:outline-hidden" aria-current="page">Das Projekt</a>
+          <a href="impressum.html" class="px-4 py-2 text-xs font-semibold uppercase tracking-wider text-[#5C5549] hover:text-[#4A5D4E] hover:border-b-2 hover:border-[#4A5D4E] transition-all focus:outline-hidden">Impressum</a>
+          <a href="datenschutz.html" class="px-4 py-2 text-xs font-semibold uppercase tracking-wider text-[#5C5549] hover:text-[#4A5D4E] hover:border-b-2 hover:border-[#4A5D4E] transition-all focus:outline-hidden">Datenschutz</a>
+        </nav>
+
+        <div class="md:hidden flex items-center">
+          <span class="text-xs font-mono text-slate-400">Menü oben nutzen ↗</span>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- Mobile Navigation Bar -->
+  <nav class="md:hidden bg-white border-b border-slate-100 flex justify-around p-3 sticky top-20 z-999 shadow-xs text-xs font-semibold uppercase tracking-wider text-slate-600">
+    <a href="index.html" class="hover:text-slate-900">Karte</a>
+    <a href="epochen.html" class="hover:text-slate-900">Epochen</a>
+    <a href="projekt.html" class="text-[#4A5D4E]">Projekt</a>
+    <a href="impressum.html" class="hover:text-slate-900">Impressum</a>
+  </nav>
+
+  <!-- Title Section -->
+  <section class="bg-[#2D362E] text-white py-12 px-4">
+    <div class="max-w-4xl mx-auto text-center">
+      <h1 class="text-3xl sm:text-4xl font-extrabold font-display leading-tight tracking-tight">
+        Über das Projekt „Archäologisches Saarland“
+      </h1>
+      <p class="text-slate-300 text-sm mt-3 leading-relaxed max-w-2xl mx-auto">
+        Hier finden Sie detaillierte Angaben zu unseren wissenschaftlichen Ansätzen, Zielsetzungen, methodischen Hintergründen und unserem ethischen Verständnis im Denkmalschutz.
+      </p>
+    </div>
+  </section>
+
+  <!-- Project Details Content -->
+  <main class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-12 flex-1">
+    
+    <div class="space-y-10 text-slate-700 leading-relaxed text-sm">
+      
+      <!-- Card block: Projektziel -->
+      <section class="bg-white rounded-2xl border border-slate-100 p-6 sm:p-8 shadow-xs">
+        <h2 class="text-xl font-bold font-display text-slate-900 mb-3 flex items-center gap-2">
+          <span>🎯</span> Projektziel
+        </h2>
+        <p class="mb-3">
+          Das primäre Ziel dieses Vorhabens ist die Erstellung einer modernen, interaktiven, intuitiv bedienbaren und barrierearmen Übersichtskarte bedeutender archäologischer Denkmäler und ausgewählter Fundstellen im Saarland. Die Web-Applikation soll der breiten Öffentlichkeit, Schulen, Forschenden und kulturhistorisch Interessierten einen niedrigschwelligen Einstieg in die reiche Ur-, Früh-, und Regionalgeschichte bieten.
+        </p>
+        <p>
+          Das Saarland liegt im dynamischen Grenzgebiet zwischen Deutschland, Frankreich und Luxemburg. Hier kreuzten sich seit Jahrtausenden wichtige Handelswege, deren sichtbare Relikte wir dokumentieren, verständlich beschreiben und geografisch einordnen möchten.
+        </p>
+      </section>
+
+      <!-- Card block: Zielgruppe -->
+      <section class="bg-white rounded-2xl border border-slate-100 p-6 sm:p-8 shadow-xs">
+        <h2 class="text-xl font-bold font-display text-slate-900 mb-3 flex items-center gap-2">
+          <span>👥</span> Zielgruppe
+        </h2>
+        <ul class="list-disc pl-5 space-y-2">
+          <li><strong>Bürgerinnen &amp; Bürger:</strong> Einheimische im Saarland, die das historische Erbe ihrer unmittelbaren Heimatgemeinde neu entdecken möchten.</li>
+          <li><strong>Kulturtouristen:</strong> Besucherinnen und Besucher des Drei-Länder-Ecks, die gezielt nach obertägig zugänglichen historischen Ausflugszielen, Freilichtmuseen oder Rekonstruktionen suchen.</li>
+          <li><strong>Schulen &amp; Studierende:</strong> Bildungsrelevante Klassen, die einen anschaulichen, chronologisch geordneten Überblick regionaler Geschichtsepochen begleitend zum Geschichtsunterricht benötigen.</li>
+          <li><strong>Menschen mit Seheinschränkungen / Barrieren:</strong> Durch die vollständige semantische HTML-Auszeichnung und das Bereitstellen einer vollständig lesbaren Listen-Übersicht unterhalb der Karte, richtet sich das Projekt explizit an Nutzer assistiver Technologien (Screenreader).</li>
+        </ul>
+      </section>
+
+      <!-- Card block: Methodik & Datenquellen -->
+      <section class="bg-white rounded-2xl border border-slate-100 p-6 sm:p-8 shadow-xs">
+        <h2 class="text-xl font-bold font-display text-slate-900 mb-3 flex items-center gap-2">
+          <span>🛠️</span> Methodik &amp; Datenquellen
+        </h2>
+        <p class="mb-4">
+          Die Erarbeitung unseres Datenmodells basiert auf der akribischen Filterung etablierter, öffentlich anerkannter Fachpublikationen sowie touristischer Register des Landesdenkmalamtes Saarland. 
+        </p>
+        <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+          <div class="p-4 bg-slate-50 rounded-xl border border-slate-100">
+            <h3 class="font-bold text-slate-800 text-xs uppercase font-mono tracking-wider mb-2">📚 Fachdatenquellen</h3>
+            <p class="text-xs text-slate-500 leading-relaxed">
+              Grundlage bilden wissenschaftliche Werke namhafter Archäologen der Region, Monografien des Landesdenkmalamtes und anerkannte Beiträge von Instituten der Universität des Saarlandes sowie dem Historischen Verein für die Saargegend.
+            </p>
+          </div>
+          <div class="p-4 bg-slate-50 rounded-xl border border-slate-100">
+            <h3 class="font-bold text-slate-800 text-xs uppercase font-mono tracking-wider mb-2">Technische Umsetzung</h3>
+            <p class="text-xs text-slate-500 leading-relaxed">
+              Es wird ein schlanker, datenschutzfreundlicher Tech-Stack verwendet: Strukturierung mittels HTML5 und CSS3 (Tailwind-Compiler), Kartenvisualisierung mit Leaflet.js und freie Tiles von OpenStreetMap. Auf jegliches Tracking, Login-Funktion, Drittanbieter-Analyse und Cookies wird konsequent verzichtet.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <!-- Card block: Ethische Verantwortung (Raubgrabungsschutz) -->
+      <section class="bg-brand-50 border border-brand-200 rounded-2xl p-6 sm:p-8">
+        <h2 class="text-xl font-bold font-display text-[#2D362E] mb-3 flex items-center gap-2">
+          Ethische Verantwortung &amp; Raubgrabungsschutz
+        </h2>
+        
+        <p class="mb-4 text-emerald-950">
+          <strong>Wichtig: Diese Plattform versteht sich explizit NICHT als vollständiges Denkmalverzeichnis.</strong>
+        </p>
+        
+        <p class="mb-4">
+          Archäologische Fundstellen im Waldbereich oder auf landwirtschaftlichen Nutzflächen sind extrem empfindliche historische Archive. Einmal zerstört oder durch unkoordinierte Grabungen entnommen, gehen wertvolle Kontext-Informationen (wie Bodenschicht-Zuordnungen, organische Reste und genaue Lagekoordinaten) für immer verloren.
+        </p>
+
+        <p class="mb-4">
+          Aus diesem Grund publiziert unser Portal im Einklang mit dem saarländischen Denkmalschutzgesetz <strong>ausschließlich touristisch unbedenkliche, ohnehin touristisch erschlossene, vollständig erforschte und öffentlich bekannte Attraktionen</strong>. 
+        </p>
+
+        <blockquote class="border-l-4 border-[#4A5D4E] pl-4 italic text-xs text-slate-600 my-4">
+          „Raubgrabungen (auch mittels Metallsuchgeräten / Sonden) sind im Saarland ohne explizite Suchgenehmigung der Landesdenkmalbehörde rechtswidrig und werden als Ordnungswidrigkeit oder Straftat konsequent verfolgt.“
+        </blockquote>
+
+        <p class="text-xs text-slate-500">
+          Sensible Fundstellen mit aktuellem Grabungsfortschritt erhalten auf dieser Karte keine Marker, um potenzielle Raubgrabungen oder Diebstahlsdelikte zu verhindern. Wir appellieren eindringlich an alle Besucher vor Ort, sich respektvoll zu verhalten, Abfälle zu vermeiden und die markierten historischen Pfade keinesfalls zu verlassen.
+        </p>
+      </section>
+
+    </div>
+
+    <!-- Back Button -->
+    <div class="mt-12 text-center">
+      <a href="index.html" class="inline-flex items-center gap-1.5 px-6 py-3 bg-[#4A5D4E] hover:bg-[#3A4C3E] text-white font-semibold text-xs uppercase tracking-wider rounded-lg transition-colors cursor-pointer focus:outline-hidden">
+        ← Zurück zur interaktiven Karte
+      </a>
+    </div>
+  </main>
+
+  <!-- Footer -->
+  <footer class="bg-[#2D362E] text-slate-400 py-12 px-4 border-t-4 border-[#4A5D4E]">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-8 pb-8 border-b border-slate-800 text-sm">
+        <div>
+          <span class="block text-white font-bold font-display text-base tracking-tight mb-3">Archäologisches Saarland</span>
+          <p class="text-slate-400 text-xs leading-relaxed max-w-xs">
+            Ein Kooperationsprojekt im Rahmen der Altertumswissenschaften und archäologischen Informatik an der Universität des Saarlandes.
+          </p>
+        </div>
+
+        <div>
+          <span class="block text-white font-bold font-mono text-xs uppercase tracking-wider mb-3">Schnelllinks</span>
+          <nav aria-label="Footer-Navigation" class="flex flex-col gap-2.5 text-xs text-slate-400">
+            <a href="index.html" class="hover:text-white transition-colors focus:outline-hidden">Interactive Karte</a>
+            <a href="epochen.html" class="hover:text-white transition-colors focus:outline-hidden">Die Archäologischen Epochen</a>
+            <a href="projekt.html" class="hover:text-white transition-colors focus:outline-hidden">Das Projektziel &amp; Ethik</a>
+          </nav>
+        </div>
+
+        <div>
+          <span class="block text-white font-bold font-mono text-xs uppercase tracking-wider mb-3">Rechtliches</span>
+          <nav aria-label="Rechtliche-Navigation" class="flex flex-col gap-2.5 text-xs text-slate-400">
+            <a href="impressum.html" class="hover:text-white transition-colors focus:outline-hidden">Impressum</a>
+            <a href="datenschutz.html" class="hover:text-white transition-colors focus:outline-hidden">Datenschutz &amp; DSGVO</a>
+          </nav>
+        </div>
+      </div>
+
+      <div class="pt-8 flex flex-col sm:flex-row items-center justify-between gap-4 text-xs font-medium text-slate-500">
+        <p>&copy; 2026 Altertumswissenschaften der Universität des Saarlandes. Ohne kommerzielle Absichten.</p>
+        <p class="flex items-center gap-1">
+          <span>Kartendaten &copy;</span>
+          <a href="https://www.openstreetmap.org/copyright" target="_blank" class="text-slate-400 hover:underline hover:text-white transition-colors focus:outline-hidden" rel="noopener">OpenStreetMap-Mitwirkende</a>
+        </p>
+      </div>
+    </div>
+  </footer>
+
+</body>
+</html>

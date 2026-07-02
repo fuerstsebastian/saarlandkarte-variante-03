@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Outfit:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: 'Inter', system-ui, -apple-system, sans-serif;
+  --font-display: 'Georgia', serif;
+  --font-mono: 'JetBrains Mono', monospace;
+  
+  --color-brand-50: #FDFBF7;
+  --color-brand-100: #F2EDE4;
+  --color-brand-200: #E5E0D5;
+  --color-brand-300: #DED9CF;
+  --color-brand-400: #8B7E66;
+  --color-brand-500: #4A5D4E;
+  --color-brand-600: #3A4C3E;
+  --color-brand-700: #2D362E;
+  --color-brand-800: #252e26;
+  --color-brand-900: #1b211c;
+}
+
+/* Custom page layout styles */
+body {
+  font-family: var(--font-sans);
+  background-color: #FDFBF7;
+  color: #3E3A35;
+}
+
+h1, h2, h3, h4 {
+  font-family: var(--font-display);
+}
+
+.mono {
+  font-family: var(--font-mono);
+}
+
+/* Map sizing and overrides */
+.map-container {
+  height: calc(100vh - 180px);
+  min-height: 450px;
+}
+
+@media (max-width: 768px) {
+  .map-container {
+    height: 50vh;
+  }
+}
+
+/* Elegant scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #F2EDE4;
+}
+::-webkit-scrollbar-thumb {
+  background: #8B7E66;
+  border-radius: 3px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #4A5D4E;
+}
+
+/* Focus States for ultra-accessibility */
+a:focus-visible, 
+button:focus-visible, 
+select:focus-visible, 
+input:focus-visible {
+  outline: 3px solid #4A5D4E;
+  outline-offset: 2px;
+}
+
+/* Leaflet Popup Style Customization */
+.leaflet-popup-content-wrapper {
+  background-color: #FDFBF7 !important;
+  color: #3E3A35 !important;
+  border-radius: 12px !important;
+  border: 1px solid #E5E0D5 !important;
+  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05) !important;
+  font-family: var(--font-sans) !important;
+  padding: 0 !important;
+}
+
+.leaflet-popup-content {
+  margin: 0 !important;
+  width: 320px !important;
+  max-width: calc(100vw - 60px);
+  max-height: 420px;
+  overflow-y: auto;
+}
+
+.leaflet-popup-tip {
+  background-color: #FDFBF7 !important;
+  border: 1px solid #E5E0D5 !important;
+}
+
+/* Custom Marker Styling */
+.custom-div-marker-inner {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  color: white;
+  font-weight: bold;
+  box-shadow: 0 4px 6px -1px rgba(0,0,0,0.2), 0 2px 4px -1px rgba(0,0,0,0.1);
+  transition: transform 0.2s ease-in-out;
+  border: 2px solid white;
+}
+
+.custom-div-marker-inner:hover {
+  transform: scale(1.25);
+}
+
+/* Active animation for selected marker */
+.custom-div-marker-active .custom-div-marker-inner {
+  transform: scale(1.4);
+  border: 2px solid #4A5D4E;
+  box-shadow: 0 0 12px rgba(74, 93, 78, 0.7);
+}
+
+/* Epoch color badge classes (fallback or hardcoded styling) */
+.badge-altsteinzeit { background-color: #8B7E66; color: white; }
+.badge-neolithikum { background-color: #8B7E66; color: white; }
+.badge-bronzezeit { background-color: #C2A36B; color: white; }
+.badge-eisenzeit { background-color: #8B5E3C; color: white; }
+.badge-roemerzeit { background-color: #4A5D4E; color: white; }
+.badge-fruehmittelalter { background-color: #5C5549; color: white; }
+.badge-mittelalter { background-color: #5C5549; color: white; }
+
+/* Custom Leaflet Tooltip improvements for extreme readability */
+.leaflet-tooltip {
+  background-color: transparent !important;
+  border: none !important;
+  box-shadow: none !important;
+  padding: 0 !important;
+}
+
+.leaflet-tooltip-top::before {
+  border-top-color: #E2E8F0 !important;
+}
