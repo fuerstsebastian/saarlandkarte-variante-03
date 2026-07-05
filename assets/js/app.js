@@ -402,12 +402,14 @@ function getImageCreditName(siteId) {
   const credits = {
     'dummy-001-gollenstein': 'Wikimedia',
     'dummy-002-spellenstein': 'Wikimedia',
+    'dummy-003-museum-vor-fruehgeschichte': 'Lokales Projektfoto',
     'dummy-004-hunnenring': 'Wikipedia',
     'dummy-005-kulturpark-bliesbruck-reinheim': 'Flocci Nivis',
     'dummy-006-villa-borg': 'enbodenumer',
     'dummy-007-villa-nennig': 'Wikimedia',
     'dummy-008-roemermuseum-schwarzenacker': 'johann j.m.',
     'dummy-010-emilianus-stollen': 'LoKiLeCh',
+    'dummy-011-mithras-heiligtum': 'Lokales Projektfoto',
     'dummy-012-burg-montclair': 'Wikimedia',
     'dummy-013-abtei-tholey': 'Wikipedia',
     'dummy-014-voelklinger-huette': 'Jakob Montrasio'
@@ -422,12 +424,14 @@ function getImageLicense(siteId) {
   const licenses = {
     'dummy-001-gollenstein': 'Wikimedia Commons',
     'dummy-002-spellenstein': 'Wikimedia Commons',
+    'dummy-003-museum-vor-fruehgeschichte': 'Projektbestand',
     'dummy-004-hunnenring': 'Wikipedia/Wikimedia',
     'dummy-005-kulturpark-bliesbruck-reinheim': 'CC BY 4.0',
     'dummy-006-villa-borg': 'CC BY-NC-SA 2.0',
     'dummy-007-villa-nennig': 'Wikimedia Commons',
     'dummy-008-roemermuseum-schwarzenacker': 'CC BY-NC-SA 2.0',
     'dummy-010-emilianus-stollen': 'CC BY-SA 3.0',
+    'dummy-011-mithras-heiligtum': 'Projektbestand',
     'dummy-012-burg-montclair': 'Wikimedia Commons',
     'dummy-013-abtei-tholey': 'Wikipedia/Wikimedia',
     'dummy-014-voelklinger-huette': 'CC BY 2.0'

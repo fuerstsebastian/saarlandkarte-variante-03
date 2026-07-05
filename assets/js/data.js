@@ -30,12 +30,14 @@ const fallbackData = [
 ];
 
 /**
- * Fetches the archaeological data from `/data/fundstellen.json`
+ * Fetches the archaeological data from `data/fundstellen.json`.
+ * The relative path is required because GitHub Pages serves this project
+ * from a repository subdirectory, not from the domain root.
  * @returns {Promise<Array>} List of archaeological sites
  */
 export async function loadFundstellen() {
   try {
-    const response = await fetch('/data/fundstellen.json');
+    const response = await fetch('data/fundstellen.json');
     if (!response.ok) {
       throw new Error(`Data fetch failed: ${response.statusText}`);
     }
