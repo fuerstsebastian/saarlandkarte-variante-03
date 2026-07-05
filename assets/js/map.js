@@ -196,6 +196,9 @@ export class ArchMap {
     const activeElements = document.querySelectorAll('.custom-div-marker-active');
     activeElements.forEach(el => el.classList.remove('custom-div-marker-active'));
 
+    // Ensure map knows its current container size (sidebar DOM changes may shift layout)
+    this.map.invalidateSize();
+
     // Highlight marker visually
     const marker = this.markersMap.get(id);
     if (marker) {
@@ -222,6 +225,7 @@ export class ArchMap {
    */
   resetView() {
     if (!this.map) return;
+    this.map.invalidateSize();
     this.map.setView(this.defaultCenter, this.defaultZoom, { animate: true, duration: 1.2 });
     if (this.map.hasLayer(this.markerGroup)) {
       this.map.closePopup();

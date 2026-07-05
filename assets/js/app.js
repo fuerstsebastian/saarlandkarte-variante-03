@@ -280,6 +280,11 @@ function handleSiteSelection(siteId) {
   if (welcomeState) welcomeState.classList.add('hidden');
   detailsPanel.classList.remove('hidden');
 
+  // Invalidate map size after DOM changes to prevent white gaps
+  if (archMapInstance && archMapInstance.map) {
+    setTimeout(() => archMapInstance.map.invalidateSize(), 60);
+  }
+
   // Close details via delegated click
   const closeBtn = document.getElementById('close-details-btn');
   if (closeBtn) {

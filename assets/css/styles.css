@@ -37,6 +37,7 @@ h1, h2, h3, h4 {
 .map-container {
   height: calc(100vh - 180px);
   min-height: 450px;
+  background-color: #DED9CF;
 }
 
 @media (max-width: 768px) {
