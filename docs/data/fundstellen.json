@@ -17,7 +17,7 @@
     "denkmalschutzstatus": "Archäologisch bekanntes Bodendenkmal; als Bodendenkmal zu behandeln",
     "literatur": [],
     "thumbnail": true,
-    "bild": "/img/dummy-001-gollenstein.jpg"
+    "bild": "img/dummy-001-gollenstein.jpg"
   },
   {
     "id": "dummy-002-spellenstein",
@@ -37,7 +37,7 @@
     "denkmalschutzstatus": "Archäologisch bekanntes Bodendenkmal; als Bodendenkmal zu behandeln",
     "literatur": [],
     "thumbnail": true,
-    "bild": "/img/dummy-002-spellenstein.jpg"
+    "bild": "img/dummy-002-spellenstein.jpg"
   },
   {
     "id": "dummy-003-museum-vor-fruehgeschichte",
@@ -56,8 +56,8 @@
     "maps_link": "https://maps.google.com/?q=49.2302,6.9926",
     "denkmalschutzstatus": "Archäologisches Museum in Trägerschaft der Stiftung Saarländischer Kulturbesitz",
     "literatur": [],
-    "thumbnail": false,
-    "bild": null
+    "thumbnail": true,
+    "bild": "img/dummy-003-museum-vor-fruehgeschichte.jpg"
   },
   {
     "id": "dummy-004-hunnenring",
@@ -77,7 +77,7 @@
     "denkmalschutzstatus": "Archäologisch bekanntes Bodendenkmal; als Bodendenkmal zu behandeln",
     "literatur": [],
     "thumbnail": true,
-    "bild": "/img/dummy-004-hunnenring.jpg"
+    "bild": "img/dummy-004-hunnenring.jpg"
   },
   {
     "id": "dummy-005-kulturpark-bliesbruck-reinheim",
@@ -97,7 +97,7 @@
     "denkmalschutzstatus": "Archäologisch bekannter Fundplatz; grenzüberschreitender Archäologiepark",
     "literatur": [],
     "thumbnail": true,
-    "bild": "/img/dummy-005-kulturpark-bliesbruck-reinheim.jpg"
+    "bild": "img/dummy-005-kulturpark-bliesbruck-reinheim.jpg"
   },
   {
     "id": "dummy-006-villa-borg",
@@ -117,7 +117,7 @@
     "denkmalschutzstatus": "Archäologisch bekannter römischer Gutshof; rekonstruiert und als Museum zugänglich",
     "literatur": [],
     "thumbnail": true,
-    "bild": "/img/dummy-006-villa-borg.jpg"
+    "bild": "img/dummy-006-villa-borg.jpg"
   },
   {
     "id": "dummy-007-villa-nennig",
@@ -137,7 +137,7 @@
     "denkmalschutzstatus": "Archäologisch bekannter römischer Fundplatz; als Bodendenkmal zu behandeln",
     "literatur": [],
     "thumbnail": true,
-    "bild": "/img/dummy-007-villa-nennig.jpg"
+    "bild": "img/dummy-007-villa-nennig.jpg"
   },
   {
     "id": "dummy-008-roemermuseum-schwarzenacker",
@@ -157,7 +157,7 @@
     "denkmalschutzstatus": "Archäologisch bekannter römischer Siedlungsbereich; als Bodendenkmal zu behandeln",
     "literatur": [],
     "thumbnail": true,
-    "bild": "/img/dummy-008-roemermuseum-schwarzenacker.jpg"
+    "bild": "img/dummy-008-roemermuseum-schwarzenacker.jpg"
   },
   {
     "id": "dummy-009-sudelfels",
@@ -197,7 +197,7 @@
     "denkmalschutzstatus": "Archäologisch bekanntes Bodendenkmal; einzigartiges römisches Bergwerk, als Bodendenkmal zu behandeln",
     "literatur": [],
     "thumbnail": true,
-    "bild": "/img/dummy-010-emilianus-stollen.jpg"
+    "bild": "img/dummy-010-emilianus-stollen.jpg"
   },
   {
     "id": "dummy-011-mithras-heiligtum",
@@ -216,8 +216,8 @@
     "maps_link": "https://maps.google.com/?q=49.2227,7.0264",
     "denkmalschutzstatus": "Archäologisch bekanntes Bodendenkmal; als Bodendenkmal zu behandeln",
     "literatur": [],
-    "thumbnail": false,
-    "bild": null
+    "thumbnail": true,
+    "bild": "img/dummy-011-mithras-heiligtum.jpg"
   },
   {
     "id": "dummy-012-burg-montclair",
@@ -237,7 +237,7 @@
     "denkmalschutzstatus": "Archäologisch bekanntes Bodendenkmal; Burgruine, als Bodendenkmal zu behandeln",
     "literatur": [],
     "thumbnail": true,
-    "bild": "/img/dummy-012-burg-montclair.jpg"
+    "bild": "img/dummy-012-burg-montclair.jpg"
   },
   {
     "id": "dummy-013-abtei-tholey",
@@ -257,7 +257,7 @@
     "denkmalschutzstatus": "Archäologisch bekannter mittelalterlicher Klosterstandort; als Bodendenkmal zu behandeln",
     "literatur": [],
     "thumbnail": true,
-    "bild": "/img/dummy-013-abtei-tholey.jpg"
+    "bild": "img/dummy-013-abtei-tholey.jpg"
   },
   {
     "id": "dummy-014-voelklinger-huette",
@@ -277,6 +277,6 @@
     "denkmalschutzstatus": "UNESCO-Weltkulturerbe; als Industriedenkmal geschützt",
     "literatur": [],
     "thumbnail": true,
-    "bild": "/img/dummy-014-voelklinger-huette.jpg"
+    "bild": "img/dummy-014-voelklinger-huette.jpg"
   }
 ]
